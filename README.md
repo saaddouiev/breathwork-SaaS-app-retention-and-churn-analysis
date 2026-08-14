@@ -17,6 +17,7 @@ Unlike my other two projects, which each analyze a single flat tables, this one 
 
 Raw source tables were cleaned and modeled directly into 2 fact tables sharing 3 dimensions:
 
+<img width="2399" height="2316" alt="data_model" src="https://github.com/user-attachments/assets/7ccee5a4-5a31-4416-86ea-91c4e19a57e1" /><img width="2370" height="1469" alt="01_churn_by_plan" src="https://github.com/user-attachments/assets/ee537288-a6b0-4853-bcdf-7f4bb73a29f3" />
 
 
 | Table | Grain |
@@ -68,7 +69,7 @@ best and worst channel. Referral and organic outperform every paid channel.
 
 ### 5. Monthly plans churn 20 points higher than annual
 
-<img width="2399" height="2316" alt="data_model" src="https://github.com/user-attachments/assets/7ccee5a4-5a31-4416-86ea-91c4e19a57e1" />
+<img width="2370" height="1469" alt="01_churn_by_plan" src="https://github.com/user-attachments/assets/0bedb7e4-7ab8-4b4b-bd1e-c88cedf49d6f" />
 
 Monthly churn sits at 55.7% vs. 35.5% for annual. This could reflect lower
 switching friction on monthly, or a selection effect where annual buyers are
