@@ -92,7 +92,5 @@ mainly around the month 1 to month 3 window.
 
 
 # Limitations
-
-- New user signups are concentrated in a fixed window in this synthetic dataset rather than continuing indefinitely. Because of that, platform-wide DAU/MAU trends toward zero by late 2025 as the original cohort winds down with nothing replacing it. This is an artifact of how the data was generated, not a real business trend, so any DAU/MAU reporting should be read cohort-relative (time since signup) rather than as a calendar-time trend.
   
 - Data is synthetic. Patterns are designed to mimic real behavior but aren't drawn from real users.
