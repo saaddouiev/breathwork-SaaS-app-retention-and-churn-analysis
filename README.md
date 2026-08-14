@@ -17,7 +17,7 @@ Unlike my other two projects, which each analyze a single flat tables, this one 
 
 Raw source tables were cleaned and modeled directly into 2 fact tables sharing 3 dimensions:
 
-<img width="2399" height="2316" alt="data_model" src="https://github.com/user-attachments/assets/7ccee5a4-5a31-4416-86ea-91c4e19a57e1" />
+
 
 | Table | Grain |
 | :--- | :--- |
@@ -31,13 +31,12 @@ Raw source tables were cleaned and modeled directly into 2 fact tables sharing 3
 
 ### 1. Churn comes from an engagement problem, not a pricing problem
 
-<img width="2370" height="1469" alt="01_churn_by_plan" src="https://github.com/user-attachments/assets/64e6e29b-2745-4896-aeae-4a7f9fb91a9b" />
+<img width="2967" height="1469" alt="04_cancellation_reasons" src="https://github.com/user-attachments/assets/207f0899-c2dc-41e5-83cf-029cad146bcf" />
 
 not_using_enough (6,273 users) is nearly 2x the count of too_expensive
 (3,808), well ahead of found_alternative (2,825) and no_reason_given
 (2,765). Price is a real factor, but it isn't the dominant one, usage drop-off
 is.
-
 
 ### 2. The retention drop is steepest between week 4 and month 3
 
@@ -60,7 +59,8 @@ cancellation.
 
 ### 4. Acquisition channel quality predicts trial conversion
 
-<img width="2967" height="1469" alt="04_cancellation_reasons" src="https://github.com/user-attachments/assets/207f0899-c2dc-41e5-83cf-029cad146bcf" />
+
+<img width="2970" height="1468" alt="05_conversion_by_channel" src="https://github.com/user-attachments/assets/d9110d24-2b13-43cf-a3b5-6ab7cd37e7bd" />
 
 Trial-to-paid conversion ranges from 62.9% (referral) and 60.0%
 (organic_search) down to 46.2% (paid_social), a 16.7-point gap between the
@@ -68,7 +68,7 @@ best and worst channel. Referral and organic outperform every paid channel.
 
 ### 5. Monthly plans churn 20 points higher than annual
 
-<img width="2970" height="1468" alt="05_conversion_by_channel" src="https://github.com/user-attachments/assets/d9110d24-2b13-43cf-a3b5-6ab7cd37e7bd" />
+<img width="2399" height="2316" alt="data_model" src="https://github.com/user-attachments/assets/7ccee5a4-5a31-4416-86ea-91c4e19a57e1" />
 
 Monthly churn sits at 55.7% vs. 35.5% for annual. This could reflect lower
 switching friction on monthly, or a selection effect where annual buyers are
