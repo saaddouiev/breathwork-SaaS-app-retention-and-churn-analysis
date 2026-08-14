@@ -17,7 +17,7 @@ Unlike my other two projects, which each analyze a single flat tables, this one 
 
 Raw source tables were cleaned and modeled directly into 2 fact tables sharing 3 dimensions:
 
-<img width="2399" height="2316" alt="data_model" src="https://github.com/user-attachments/assets/284f11a0-2e74-4e2c-a9c0-247bffd17014" />
+<img width="2399" height="2316" alt="data_model" src="https://github.com/user-attachments/assets/7ccee5a4-5a31-4416-86ea-91c4e19a57e1" />
 
 | Table | Grain |
 | :--- | :--- |
@@ -31,8 +31,7 @@ Raw source tables were cleaned and modeled directly into 2 fact tables sharing 3
 
 ### 1. Churn comes from an engagement problem, not a pricing problem
 
-<img width="2967" height="1469" alt="04_cancellation_reasons" src="https://github.com/user-attachments/assets/d4059359-0d75-4b4d-bde3-90cca48d2aa2" />
-
+<img width="2370" height="1469" alt="01_churn_by_plan" src="https://github.com/user-attachments/assets/64e6e29b-2745-4896-aeae-4a7f9fb91a9b" />
 
 not_using_enough (6,273 users) is nearly 2x the count of too_expensive
 (3,808), well ahead of found_alternative (2,825) and no_reason_given
@@ -42,7 +41,7 @@ is.
 
 ### 2. The retention drop is steepest between week 4 and month 3
 
-<img width="2970" height="1469" alt="02_retention_curve" src="https://github.com/user-attachments/assets/fadc2868-3038-4657-ad34-9ec353e718c3" />
+<img width="2970" height="1469" alt="02_retention_curve" src="https://github.com/user-attachments/assets/ff6e61ee-142e-4f59-8079-d9682282fe1e" />
 
 Cohort retention: 100% (week 1) -> 82% (week 4) -> 47% (month 3) -> 15% (month 6).
 The first month holds up reasonably well; the real collapse (82% -> 47%, a
@@ -51,7 +50,7 @@ this business is losing the most people.
 
 ### 3. Churned users never build a habit, they stagnate at ~1.4 sessions/week
 
-<img width="3570" height="1470" alt="03_engagement_trajectory" src="https://github.com/user-attachments/assets/04066fac-3f0a-4b72-bd57-4a94b294b107" />
+<img width="3570" height="1470" alt="03_engagement_trajectory" src="https://github.com/user-attachments/assets/7df368b3-21b0-4293-803f-6d3770963cf1" />
 
 Tracked monthly from Jan 2024–Dec 2025, churned users' average sessions/week
 hover in a tight band (~1.1–1.7) around a ~1.4 plateau for the entire window, 
@@ -61,7 +60,7 @@ cancellation.
 
 ### 4. Acquisition channel quality predicts trial conversion
 
-<img width="2970" height="1468" alt="05_conversion_by_channel" src="https://github.com/user-attachments/assets/f8b160b0-860d-4eb9-98a6-5771784d57ac" />
+<img width="2967" height="1469" alt="04_cancellation_reasons" src="https://github.com/user-attachments/assets/207f0899-c2dc-41e5-83cf-029cad146bcf" />
 
 Trial-to-paid conversion ranges from 62.9% (referral) and 60.0%
 (organic_search) down to 46.2% (paid_social), a 16.7-point gap between the
@@ -69,7 +68,7 @@ best and worst channel. Referral and organic outperform every paid channel.
 
 ### 5. Monthly plans churn 20 points higher than annual
 
-<img width="2370" height="1469" alt="01_churn_by_plan" src="https://github.com/user-attachments/assets/ca7bc83c-73cb-4946-aab1-d2176e1f4a14" />
+<img width="2970" height="1468" alt="05_conversion_by_channel" src="https://github.com/user-attachments/assets/d9110d24-2b13-43cf-a3b5-6ab7cd37e7bd" />
 
 Monthly churn sits at 55.7% vs. 35.5% for annual. This could reflect lower
 switching friction on monthly, or a selection effect where annual buyers are
