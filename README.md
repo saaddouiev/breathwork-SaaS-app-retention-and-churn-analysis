@@ -17,8 +17,7 @@ Unlike my other two projects, which each analyze a single flat tables, this one 
 
 Raw source tables were cleaned and modeled directly into 2 fact tables sharing 3 dimensions:
 
-<img width="2399" height="2316" alt="data_model" src="https://github.com/user-attachments/assets/7ccee5a4-5a31-4416-86ea-91c4e19a57e1" /><img width="2370" height="1469" alt="01_churn_by_plan" src="https://github.com/user-attachments/assets/ee537288-a6b0-4853-bcdf-7f4bb73a29f3" />
-
+<img width="2399" height="2316" alt="data_model" src="https://github.com/user-attachments/assets/7ccee5a4-5a31-4416-86ea-91c4e19a57e1" />
 
 | Table | Grain |
 | :--- | :--- |
